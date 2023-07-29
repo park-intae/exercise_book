@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      ul.menu {
+        padding-left: 0px;
+        width: 600px;
+        margin: 16px auto;
+        text-align: center;
+        background-color: antiquewhite;
+        box-shadow: -10px -10px rgb(165, 165, 165);
+      }
+      ul.menu li {
+        list-style-type: none;
+        display: inline;
+        margin: 10px 5px;
+        border-radius: 5px;
+      }
+      .menu > li:hover {
+        color: white;
+        background-color: black;
+      }
+      .menu > li:hover > a {
+        color: white;
+      }
+      /* 자손선택자: ' > ', 후손선택자: ' ' */
+    </style>
+  </head>
+  <body>
+    <ul class="menu">
+      <li>
+        <a href="#">회원가입</a>
+      </li>
+      <li>
+        <a href="#">제품정보</a>
+      </li>
+      <li>
+        <a href="#">게시판</a>
+      </li>
+      <li>
+        <a href="#">장바구니</a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <a href="#">홍차</a>
+      </li>
+      <li>
+        <a href="#">녹차</a>
+      </li>
+      <li>
+        <a href="#">밀크티</a>
+      </li>
+      <li>
+        <a href="#">에스프레소</a>
+      </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function test() {
+        console.log('test 함수 호출');
+        let el = document.getElementById('name');
+        if (el != null) {
+          console.log(el);
+          let id = el.value;
+          console.log('당신이 입력한 id는 ' + id + ' 입니다');
+        }
+      }
+      function add() {
+        console.log('추가 기능 처리');
+      }
+      function minus() {
+        console.log('제거 기능 처리');
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" id="name" />
+    <button onclick="test()">테스트</button><br />
+    <button onclick="add()">추가</button><br />
+    <button onclick="minus()">제거</button><br />
+  </body>
+</html>
