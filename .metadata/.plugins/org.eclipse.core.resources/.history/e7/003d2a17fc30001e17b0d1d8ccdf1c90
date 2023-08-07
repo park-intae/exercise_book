@@ -1,0 +1,12 @@
+package java_study_chap_05;
+
+public class CallByReferenceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] data = {100, 200};
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package java_study_chap_05;
+
+public class ArrayEx8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] grade = new int[5];
+
+		Array7.getNumbers(grade);
+		Array7.showNumbers(grade);
+	}
+
+}

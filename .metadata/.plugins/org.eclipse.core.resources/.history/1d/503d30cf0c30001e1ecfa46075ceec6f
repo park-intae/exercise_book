@@ -1,0 +1,25 @@
+package java_study_chap_04;
+
+public class switch_ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		string name = "자바";
+
+		switch (name) {
+		case "파이썬":
+			System.out.println("1103호로 가시오");
+			break;
+		case "자바":
+			System.out.println("1104호로 가시오");
+			break;
+		case "리눅스":
+			System.out.println("1105호로 가시오");
+			break;
+		default:
+			System.out.println("카운터에서 문의하시오");
+			break;
+		}
+	}
+
+}

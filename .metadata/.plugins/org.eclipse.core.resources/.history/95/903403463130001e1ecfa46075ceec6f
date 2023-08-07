@@ -1,0 +1,25 @@
+package java_study_chap_04;
+
+import java.util.Scanner;
+
+public class do_while_example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("메세지를 입력하시오.");
+		System.out.println("프로그램을 종료하려면 q를 누르시오.");
+
+		Scanner sc = new Scanner(System.in);
+		String inputString;
+
+		do {
+			System.out.print(">");
+			inputString = sc.nextLine();
+			System.out.println(inputString);
+		} while (!inputString.equals("q"));
+
+		System.out.print("");
+		System.out.print("프로그램 종료");
+	}
+
+}

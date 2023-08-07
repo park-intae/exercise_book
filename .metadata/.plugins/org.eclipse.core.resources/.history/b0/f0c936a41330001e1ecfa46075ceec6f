@@ -1,0 +1,16 @@
+package java_study_chap_04;
+
+import java.util.Date;
+
+public class condition_statement_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Date.date = new Date();
+		int month = date.getMonth() + 1;
+		int day = date.getDay();
+		System.out.println(day);
+
+	}
+
+}

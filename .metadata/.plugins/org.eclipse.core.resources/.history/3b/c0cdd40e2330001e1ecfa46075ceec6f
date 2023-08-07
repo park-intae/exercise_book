@@ -1,0 +1,15 @@
+package java_study_chap_04;
+
+public class printf_ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double value = 12.345678;
+		String result = "작은 값";
+
+		System.out.printf("계산결과는 %f 입니다. \n", value);
+		System.out.printf("계산결과는 %.3f 입니다. \n", value);
+		System.out.printf("%s은 %.2f 입니다 \n", result, value);
+	}
+
+}

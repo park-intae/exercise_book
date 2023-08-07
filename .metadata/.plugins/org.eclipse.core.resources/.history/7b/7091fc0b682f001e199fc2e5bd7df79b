@@ -1,0 +1,18 @@
+package java_study_chaper02;
+
+public class My_Home {
+
+	private static int age;
+	private static String myTel;
+	private static String ssn;
+
+	public static void main(String[] args) {
+
+		int age = 100;
+		string myTel = "011";
+		string ssn = "880101";
+		final String Company = "멀티캠퍼스";
+		// Compnay = "MultyCampus"; //상수는 재할당 불가
+		System.out.println("나의 나이는" + 100 + "살  이다");
+	}
+}

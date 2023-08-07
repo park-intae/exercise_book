@@ -1,0 +1,27 @@
+package java_study_chap_04;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class game_01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Random r = new Random();
+		Scanner sc = new Scanner(System.in);
+
+		int computer = r.nextInt(3);
+		System.out.print("가위=0,바위=1,보=2 >> \n");
+		int me = sc.nextInt();
+		
+		System.out.printf("컴퓨터: %d, 나: %d", r, sc);
+		
+		if(me==computer) {
+			System.out.print("비김 \n");
+		}else if(me - computer == 1 || me - computer == -2 ) {
+			System.out.print("이김 \n");
+		}else {
+			System.out.print("짐 \n");
+	}
+
+}

@@ -1,0 +1,21 @@
+package java_study_chap_04;
+
+public class while_loof_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 100까지 더하기
+		int sum = 0;i=1;
+
+		while(i<=100)
+		{
+				sum += i
+						
+				i++
+			
+		}System.out.print(sum);
+
+	}
+
+}

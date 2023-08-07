@@ -1,0 +1,21 @@
+package java_study_chap_05;
+
+public class ArrayErrorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] jamsu = new int[1000];
+		System.out.println(jamsu);
+		
+		jamsu[0]=100;
+		jamsu[10]=200;
+		jamsu[999]=1000;
+		
+		System.out.println("첫번째 값" + jamsu[0]);
+		System.out.println("11번째 값"+ jamsu[10]);
+		System.out.println("999번째 값" + jamsu[999]);
+		
+		
+		
+
+}

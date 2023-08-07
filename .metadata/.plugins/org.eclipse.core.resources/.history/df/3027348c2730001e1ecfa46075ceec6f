@@ -1,0 +1,16 @@
+package java_study_chap_04;
+
+public class double_loof {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int l = 1; l <= 5; l++) {
+			System.out.print("l");
+			for(int c = 1; c = l; c++) {
+				System.out.print("*");
+			}
+				
+		}
+	}
+
+}
