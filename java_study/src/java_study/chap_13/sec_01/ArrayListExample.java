@@ -21,6 +21,26 @@ public class ArrayListExample {
 		String skill = list.get(2);
 		System.out.println("2: " + skill);
 		System.out.println();
+		
+		//순회
+		for(int i = 0; i < list.size(); i++) {
+			String str = list.get(i);
+			System.out.print(i + ":" + str);
+		}
+		System.out.println();
+		
+		//요소 제거
+		list.remove(2);
+		list.remove(2);
+		list.remove("iBATIS");
+		
+		//다시 순회
+		for(int i=0; i<list.size(); i++) {
+		String str = list.get(i);
+		System.out.println(i + ":" + str);
+		
+			
+		}
 	}
 
 }
