@@ -17,7 +17,7 @@ public class MemberDaoTest {
 	
 	
 	static void testRead() {
-		MemberDao dao = new MemberDao();
+		MemberDao dao = new MemberListDao();
 		
 		List<Member> list = dao.getMemberList();
 		for(Member m : list) {
@@ -26,7 +26,7 @@ public class MemberDaoTest {
 	}
 	
 	static void testAdd() {
-		MemberDao dao = new MemberDao();
+		MemberDao dao = new MemberListDao();
 		
 		List<Member> list = dao.getMemberList();
 		Member m2 = new Member("dooli", "1234", "둘리", "dooli@naver.com");
@@ -40,7 +40,7 @@ public class MemberDaoTest {
 	}
 	
 	static void testFindByUserId() {
-		MemberDao dao = new MemberDao();
+		MemberDao dao = new MemberListDao();
 		
 		String userid = "hong";
 		Member m = dao.findByUserId(userid);
@@ -54,7 +54,7 @@ public class MemberDaoTest {
 	}
 	
 	static void testUpdate() {
-		MemberDao dao = new MemberDao();
+		MemberDao dao = new MemberListDao();
 		Member m = new Member("na","1234","나길동","na@naver.com");
 		Member m2 = dao.update(m);
 		assert m2 != null & m == m2 : "업데이트 실패";
@@ -67,7 +67,7 @@ public class MemberDaoTest {
 	}
 	
 	static void testDelete() {
-		MemberDao dao = new MemberDao();
+		MemberDao dao = new MemberListDao();
 		Member m = dao.delete("na");
 		
 		assert m != null & m.getUserid().equals("na") : "삭제실패";
