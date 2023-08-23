@@ -1,0 +1,13 @@
+package java_study_chap_05;
+
+public class ArrayEx10 {
+		//베열 입력을 받아서
+		//최솟값을 인덱스 0번의 값과 교환
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] data = new int[5];
+		// 데이터 입력받기
+		Array
+	}
+
+}

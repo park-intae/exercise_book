@@ -1,0 +1,22 @@
+package java_study_chap_04;
+
+public class for_sentence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum = 0;
+		for (int i = 1; i <= 100; i++) {
+			if (i % 2 == 0) {
+				sum += i; // sum = sum + 1;
+			}
+		}
+		System.out.println("1~100까지 짝수만 더하면?" + sum);
+
+		int sum = 0;
+		for (int i = 2; i <= 100; i += 2) {
+			sum += i;
+		}
+		System.out.println("1~100까지 짝수만 더하면?" + sum);
+	
+
+}

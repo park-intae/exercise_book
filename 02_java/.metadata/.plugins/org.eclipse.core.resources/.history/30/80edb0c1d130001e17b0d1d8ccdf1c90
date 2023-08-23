@@ -1,0 +1,30 @@
+package java_study_chap_05;
+
+public class ArrayExample01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] jamsu = new int[1000];
+		System.out.println(jamsu);
+
+		jamsu[0] = 100;
+		jamsu[10] = 200;
+		jamsu[999] = 1000;
+		// jamsu[1000] = 2000; << 인덱스 범위 초과, 할당되지 않은 인덱스
+
+		System.out.println("첫번째 값" + jamsu[0]);
+		System.out.println("11번째 값" + jamsu[10]);
+		System.out.println("999번째 값" + jamsu[999]);
+
+		for (int i = 0; i < jamsu.length; i++) { // 인덱스 기반, .length << 상수값
+			System.out.println(i + ":" + jamsu[i]);
+		}
+
+		int sum = 0;
+		for (int value : jamsu) { // 값 기반
+			System.out.println(value);
+			sum += value;
+		}
+
+	}
+}

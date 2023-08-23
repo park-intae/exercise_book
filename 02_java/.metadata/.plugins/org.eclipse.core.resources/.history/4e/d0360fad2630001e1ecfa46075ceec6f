@@ -1,0 +1,18 @@
+package java_study_chap_04;
+
+import java_study_chap_03.copy.input2;
+
+public class Times_Table__double_loof {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int m = 2; m <= 9; m++) {
+			System.out.print("****" + m + "****");
+			for(int n = 1; n <= 9; n++) {
+				int r = m * n;
+				System.out.printf("%d X %d = %d", m, n, r);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+package java_study_chap_05;
+
+public class ArrayEx9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] save = new int[5];
+
+		Array7.getNumbers("숫자입력", save);
+
+		int max = save[0];
+		for (int i = 0; i < save[i] - 1; i++) {
+			if (max < save[i]) {
+				max = save[i];
+			}
+		}
+
+		int min = save[0];
+		for (int i = 0; i < save[i] - 1; i++) {
+			if (min > save[i]) {
+				min = save[i];
+			}
+		}
+
+		System.out.println("최고값 : " + max);
+		System.out.println("최소값 : " + min);
+	}
+
+}

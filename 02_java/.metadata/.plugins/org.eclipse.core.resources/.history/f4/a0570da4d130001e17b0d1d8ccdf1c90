@@ -1,0 +1,23 @@
+package java_study_chap_05;
+
+public class ArrayExample01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] height = { 123.4, 234.2, 345.3 };
+		double[] space = new double[500];
+		char[] gender = { '남', '남', '여' };
+		String[] space2 = new String[300];
+
+		System.out.println(height);
+		System.out.println(height[2]);
+		System.out.println(space);
+		System.out.println(space[0]);
+		System.out.println(gender);
+		System.out.println(gender[0]);
+		System.out.println(space2); // [Ljava.lang.String;@182decdb: 배열 엘리먼트는 스트링 @ 위치값
+		System.out.println(space2[5]);
+
+	}
+
+}

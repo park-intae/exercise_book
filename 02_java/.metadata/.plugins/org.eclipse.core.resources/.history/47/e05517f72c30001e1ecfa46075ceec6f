@@ -1,0 +1,19 @@
+package java_study_chap_04;
+
+public class WhileKeyControlExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean run = ture;
+		int speed = 0;
+		int kyeCord = 0;
+
+		while (run) {
+			System.out.println("---------------");
+			System.out.println("---------------");
+			System.out.println("---------------");
+			System.out.println("---------------");
+		}
+	}
+
+}

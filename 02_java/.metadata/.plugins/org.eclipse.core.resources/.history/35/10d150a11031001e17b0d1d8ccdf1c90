@@ -1,0 +1,20 @@
+package java_study_chap_05;
+
+import java.util.Scanner;
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] inpVal = new int[5];
+
+		ArrayUtil.getNumbers("정수 >>", inpVal);
+		ArrayUtil.showNumbers(inpVal);
+		int sum = ArrayUtil.addAll(inpVal);
+
+		System.out.println("전체합계: " + sum);
+		double aver = (double) sum / inpVal.length;
+		System.out.println("전체평균:" + aver);
+	}
+
+}

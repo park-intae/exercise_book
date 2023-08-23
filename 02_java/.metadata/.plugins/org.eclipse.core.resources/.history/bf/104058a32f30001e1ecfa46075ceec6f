@@ -1,0 +1,10 @@
+package java_study_chap_04;
+
+public class do_while_example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
