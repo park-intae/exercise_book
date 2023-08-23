@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>The select Car</h3>
+    <p>The select element defined a drop-down list :</p>
+    <form>
+      <label>
+        Choose your car
+        <select name="car" size="4" multiple>
+          <!-- 여러 선택지 중 하나 선택 가능(기본)
+            multiple 속성을 추가해 여러 선택지 선택 가능
+            size 속성은 한 번에 보여주는 최대 항목 수(항목수>사이즈 면 옆에 스크롤 바 생성) -->
+          <option value="volvo">Volovo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </label>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
